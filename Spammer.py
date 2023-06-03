@@ -6,11 +6,10 @@ from functools import cache
 
 def spam():
     sleep(5)
-    zero = float(0)
     timeee = float(time.get())
     numberrr = float(number.get())
     phraseee = phrase.get()
-    while zero<numberrr:
+    while float(0)<numberrr:
         numberrr = numberrr - (1)
         typewrite(phraseee)
         press('enter')
